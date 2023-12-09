@@ -1,0 +1,134 @@
+@font-face {
+  font-family: digital;
+  src: url('./fonts/digital-7.ttf');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background: #12c2e9; 
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+
+}
+h6{
+  position: relative;
+  z-index: 1;
+  top: -168px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  border: 1px double #ffffff;
+  padding: 2px;
+  border-radius: 25px;
+}
+.container {
+  position: absolute;
+  margin-left: 1.8em;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow:inset 13px 13px 20px #343f49, inset
+    -13px -13px 50px #000000, -13px -13px 50px #000000;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-right: 10px;
+  background-color: #4e4e4e;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.content {
+  width: 100%;
+  margin-top: 1.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row button {
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  transition: .1s;
+  box-shadow: 5px 5px 8px #00000020,
+    -5px -1px 20px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+}
+
+.row button:hover {
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+    inset -5px -5px 8px #fff;
+  background: #fff;
+}
+
+.display #screen {
+  margin-bottom: .5em;
+  width: 92%;
+  height: 70px;
+  font-size: 45px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: .5em;
+  background: #78e699;
+  border-radius: 6px;
+  box-shadow: inset 2px 1px 8px #000000,
+    inset -2px -1px 8px #000000;
+  border: 5px double;
+  font-family: digital;
+}
+
+#eval {
+  background: #0066ff;
+  color: #fff;
+  box-shadow: inset 5px 5px 8px #007ca5,
+    inset -5px 5px 8px #84d6f1;
+  box-shadow: 5px 5px 8px #00000020,
+    -5px -1px 20px rgb(0, 0, 0);
+}
+
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #00ace6,
+    inset -5px -5px 8px #00ace6;
+}
+
+#ac {
+  background: #33cc33;
+  color: #fff;
+}
+
+#ac:hover {
+  box-shadow: inset 5px 5px 8px #2eb82e,
+    inset -5px -5px 8px #33cc33;
+}
+
+#ce {
+  background: #ff3333;
+  color: #fff;
+}
+
+#ce:hover {
+  box-shadow: inset 5px 5px 8px #e60073,
+    inset -5px -5px 8px #ff3399;
+}
