@@ -18,5 +18,5 @@ This is a Scientific Calculator using HTML, CSS and JavaScript.
 
 ## Demo
 
-Insert gif or link to demo
+https://calculator-raktimmaity.vercel.app/
 
